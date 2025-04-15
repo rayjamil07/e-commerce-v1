@@ -1,0 +1,26 @@
+Core Deliverables
+As a user, I can:
+
+1. See a list of available products with their names, prices, and an "Add to Cart" button.
+2. Add a product to the cart, increasing its quantity if it’s already in the cart.
+3. View a list of all items in the cart, including their names, prices, quantities, and the total price.
+4. Remove a product from the cart or adjust its quantity.
+
+Components to have:
+1. App.jsx > Where the compilation will happen
+2. Items.jsx > Where our array will be stored
+3. Cart.jsx > Where our cart functionality will be
+ > Must have add and delete button together with + and - buttons
+ > Overall layout of the cart to include the item name and price, what about picture ??
+4. Main.jsx > Where app will be placed 
+5. Index.html and styles.css
+
+Bonus Deliverables
+These bonus deliverables are optional and won’t affect your score but are great for additional learning!
+
+As a user, I should be able to:
+
+1. Sort products by name or price (ascending/descending).
+2. Persist the cart state by saving it locally (e.g., localStorage).
+3. Display a message when the cart is empty or no products are available.
+4. Add search functionality to filter products by name.
